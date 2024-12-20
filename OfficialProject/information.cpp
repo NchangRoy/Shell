@@ -220,16 +220,16 @@ void Information::displayinfo()
     }
     else if(algorithm_id==2){
         filltable(PM->SJFResult);
-     //   drawgantt(PM->SJFResult);
+       drawgantt(PM->SJFResult);
         displaymetrics(PM->SJFResult);
     }else if(algorithm_id==3){
         filltable(PM->RoundRobinResult);
-       // drawgantt(PM->RoundRobinResult);
+        drawgantt(PM->RoundRobinResult);
         displaymetrics(PM->RoundRobinResult);
     }
     else if(algorithm_id==4){
         filltable(PM->PriorityResult);
-       // drawgantt(PM->PriorityResult);
+        drawgantt(PM->PriorityResult);
         displaymetrics(PM->PriorityResult);
     }
 }
