@@ -1,0 +1,13 @@
+debug/details.o
+debug/execution_dialog.o
+debug/information.o
+debug/main.o
+debug/mainwindow.o
+debug/p_template_exe.o
+debug/process_template.o
+debug/moc_details.o
+debug/moc_execution_dialog.o
+debug/moc_information.o
+debug/moc_mainwindow.o
+debug/moc_p_template_exe.o
+debug/moc_process_template.o

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>P_template_exe</class>
+ <widget class="QWidget" name="P_template_exe">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>308</width>
+    <height>106</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color:rgb(200, 171, 138);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_7">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="spacing">
+      <number>0</number>
+     </property>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QLabel" name="label">
+         <property name="styleSheet">
+          <string notr="true">font-size:16px;
+background-color:rgb(200, 80, 44);
+font-family:&quot;Segoe UI&quot;;
+color:white;
+
+</string>
+         </property>
+         <property name="text">
+          <string>PID</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="Pid_label">
+         <property name="styleSheet">
+          <string notr="true">font-size:20px;
+font-family:&quot;Segoe UI&quot;;
+font-weight:bolder;
+color:rgb(170, 0, 0)</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QLabel" name="label_4">
+         <property name="styleSheet">
+          <string notr="true">font-size:16px;
+background-color:rgb(200, 80, 44);
+font-family:&quot;Segoe UI&quot;;
+color:white;
+
+</string>
+         </property>
+         <property name="text">
+          <string>ET</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="ExT_label">
+         <property name="styleSheet">
+          <string notr="true">font-size:20px;
+font-family:&quot;Segoe UI&quot;;
+font-weight:bolder;
+color:rgb(170, 0, 0)</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QLabel" name="label_3">
+         <property name="styleSheet">
+          <string notr="true">font-size:16px;
+background-color:rgb(200, 80, 44);
+font-family:&quot;Segoe UI&quot;;
+color:white;
+
+</string>
+         </property>
+         <property name="text">
+          <string>BT</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="BT_label">
+         <property name="styleSheet">
+          <string notr="true">font-size:20px;
+font-family:&quot;Segoe UI&quot;;
+font-weight:bolder;
+color:rgb(170, 0, 0)</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QLabel" name="label_2">
+         <property name="styleSheet">
+          <string notr="true">font-size:16px;
+background-color:rgb(200, 80, 44);
+font-family:&quot;Segoe UI&quot;;
+color:white;
+
+</string>
+         </property>
+         <property name="text">
+          <string>AT</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="AT_label">
+         <property name="styleSheet">
+          <string notr="true">font-size:20px;
+font-family:&quot;Segoe UI&quot;;
+font-weight:bolder;
+color:rgb(170, 0, 0)</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QLabel" name="label_5">
+         <property name="styleSheet">
+          <string notr="true">font-size:16px;
+background-color:rgb(200, 80, 44);
+font-family:&quot;Segoe UI&quot;;
+color:white;
+
+</string>
+         </property>
+         <property name="text">
+          <string>WT</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="WT_label">
+         <property name="styleSheet">
+          <string notr="true">font-size:20px;
+font-family:&quot;Segoe UI&quot;;
+font-weight:bolder;
+color:rgb(170, 0, 0)</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+     <item>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <item>
+        <widget class="QLabel" name="label_6">
+         <property name="styleSheet">
+          <string notr="true">font-size:16px;
+background-color:rgb(200, 80, 44);
+font-family:&quot;Segoe UI&quot;;
+color:white;
+
+</string>
+         </property>
+         <property name="text">
+          <string>State</string>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QLabel" name="state">
+         <property name="styleSheet">
+          <string notr="true">font-size:20px;
+font-family:&quot;Segoe UI&quot;;
+font-weight:bolder;
+color:rgb(170, 0, 0)</string>
+         </property>
+         <property name="text">
+          <string/>
+         </property>
+         <property name="alignment">
+          <set>Qt::AlignmentFlag::AlignCenter</set>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

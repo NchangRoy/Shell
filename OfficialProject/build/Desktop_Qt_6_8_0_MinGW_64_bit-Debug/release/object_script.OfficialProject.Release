@@ -1,0 +1,13 @@
+release/details.o
+release/execution_dialog.o
+release/information.o
+release/main.o
+release/mainwindow.o
+release/p_template_exe.o
+release/process_template.o
+release/moc_details.o
+release/moc_execution_dialog.o
+release/moc_information.o
+release/moc_mainwindow.o
+release/moc_p_template_exe.o
+release/moc_process_template.o
